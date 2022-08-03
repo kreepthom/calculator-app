@@ -1,0 +1,83 @@
+.buttons {
+    gap: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: var(--Very-dark-desaturated-blue-toggle-background);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.NumbAdd {
+    border-radius: 10px;
+    font-size: 28px;
+    width: 60px;
+    height: 65px;
+    color: var(--Very-dark-grayish-blue);
+    background-color: var(--Light-grayish-orange-key-background);
+    border: 0;
+    border-bottom: 5px solid var(--Grayish-orange-key-shadow);
+}
+
+.NumbAdd:hover {
+    border-radius: 10px;
+    font-size: 28px;
+    width: 60px;
+    height: 65px;
+    color: var(--Very-dark-grayish-blue);
+    background-color: var(--Light-grayish-orange-key-background);
+    transform: scale(1.03);
+    border: 0;
+    border-bottom: 5px solid var(--Grayish-orange-key-shadow);
+}
+
+.span-two {
+    border-radius: 10px;
+    grid-column: span 2;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.deleteNumb {
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -1px;
+    border-bottom: 5px solid gray;
+    border: 0;
+    color: var(--White);
+    background-color: var(--Desaturated-dark-blue-key-background);
+    border-bottom: 5px solid var(--Desaturated-dark-blue-key-shadow);
+
+}
+
+.deleteNumb:hover {
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -1px;
+    border-bottom: 5px solid gray;
+    border: 0;
+    color: var(--White);
+    transform: scale(1.03);
+    background-color: var(--Desaturated-dark-blue-key-shadow);
+    border-bottom: 5px solid var(--Desaturated-dark-blue-key-shadow);
+}
+
+.equal {
+    color: var(--White);
+    background-color: var(--Red-key-background-toggle);
+    border: 0;
+    border-bottom: 5px solid var(--Dark-red-key-shadow);
+}
+
+.equal:hover {
+    color: var(--White);
+    transform: scale(1.03);
+    background-color: var(--Dark-red-key-shadow);
+    border: 0;
+    border-bottom: 5px solid var(--Dark-red-key-shadow);
+}

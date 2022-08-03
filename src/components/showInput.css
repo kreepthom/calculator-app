@@ -1,0 +1,20 @@
+
+
+.output {
+    width: 100%;
+}
+
+.input {
+    font-size:30px;
+    font-weight: 900;
+    margin: 20px 0px;
+    grid-column:span 4;
+    width: 306px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 6px;
+    color: var(--White);
+    background-color: var(--Very-dark-desaturated-blue-screen-background);
+    text-align: end;
+}

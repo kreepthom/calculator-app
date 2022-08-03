@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+:root {
+    --Very-dark-desaturated-blue: hsl(222, 26%, 31%);
+    --Very-dark-desaturated-blue-toggle-background: hsl(223, 31%, 20%);
+    --Very-dark-desaturated-blue-screen-background: hsl(224, 36%, 15%);
+    --Desaturated-dark-blue-key-background: hsl(225, 21%, 49%);
+    --Desaturated-dark-blue-key-shadow: hsl(224, 28%, 35%);
+    --Red-key-background-toggle: hsl(6, 63%, 50%);
+    --Dark-red-key-shadow: hsl(6, 70%, 34%);
+    --Light-grayish-orange-key-background: hsl(30, 25%, 89%);
+    --Grayish-orange-key-shadow: hsl(28, 16%, 65%);
+    --Very-dark-grayish-blue: hsl(221, 14%, 31%);
+    --White: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.theme2 {
+    --Very-dark-desaturated-blue: hsl(0, 0%, 90%);
+    --Very-dark-desaturated-blue-toggle-background: hsl(0, 5%, 81%);
+    --Very-dark-desaturated-blue-screen-background: hsl(0, 0%, 93%);
+    --Desaturated-dark-blue-key-background: hsl(185, 42%, 37%);
+    --Desaturated-dark-blue-key-shadow: hsl(185, 58%, 25%);
+    --Red-key-background-toggle: hsl(25, 98%, 40%);
+    --Dark-red-key-shadow: hsl(25, 99%, 27%);
+    --Light-grayish-orange-key-background: hsl(45, 7%, 89%);
+    --Grayish-orange-key-shadow: hsl(35, 11%, 61%);
+    --Very-dark-grayish-blue: hsl(60, 10%, 19%);
+    --White: hsl(60, 10%, 19%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.theme3 {
+    --Very-dark-desaturated-blue: hsl(268, 75%, 9%);
+    --Very-dark-desaturated-blue-toggle-background: hsl(268, 71%, 12%);
+    --Very-dark-desaturated-blue-screen-background: hsl(268, 71%, 12%);
+    --Desaturated-dark-blue-key-background: hsl(281, 89%, 26%);
+    --Desaturated-dark-blue-key-shadow: hsl(285, 91%, 52%);
+    --Red-key-background-toggle: hsl(176, 100%, 44%);
+    --Dark-red-key-shadow: hsl(177, 92%, 70%);
+    --Light-grayish-orange-key-background: hsl(268, 47%, 21%);
+    --Grayish-orange-key-shadow: hsl(290, 70%, 36%);
+    --Very-dark-grayish-blue: hsl(52, 100%, 62%);
+    --White: hsl(52, 100%, 62%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+    overflow-y: none;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--Very-dark-desaturated-blue);
+    z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--Very-dark-desaturated-blue);
 }
