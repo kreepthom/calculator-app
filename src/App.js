@@ -16,8 +16,8 @@ function App() {
 
   const handleAddInput = (e) => {
     if (
-      ops.includes(e.target.name) && numbers === '' ||
-      ops.includes(e.target.name) && ops.includes(numbers.slice(-1))
+      ops.includes(e.target.name) & numbers === '' |
+      ops.includes(e.target.name) & ops.includes(numbers.slice(-1))
     ) {
       return;
     }
